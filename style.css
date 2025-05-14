@@ -1,0 +1,54 @@
+
+body{
+    background:
+    linear-gradient(hsla(225, 100%, 94%, 0.7)),
+    url('assets/images/pattern-background-desktop.svg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+@media (max-width: 375px){
+    body{
+    background:
+    linear-gradient(hsla(225, 100%, 94%, 0.7)),
+    url('assets/images/pattern-background-mobile.svg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: auto;
+    }
+}
+
+.card{
+    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 450px;
+    height: auto;
+    border-radius: 18px;
+}
+
+.illustration-hero{
+    height: 220px;
+    width: 100%;
+}
+
+.hero-img{
+    width: 100%;
+    border-top-left-radius: 18px;
+    border-top-right-radius: 18px;
+}
+
+p{
+    width: 70%;
+    text-align: center;
+}
+
